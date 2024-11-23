@@ -137,3 +137,7 @@ Creating a robust workflow for preprocessing a dataset from a CSV file ensures t
 - Keep domain knowledge in mind when making cleaning or engineering decisions.
 
 By following this workflow, you'll create a robust pipeline that prepares your dataset effectively for machine learning.
+
+
+#####
+Prétraitement des données :  j'ai ajouté un prétraitement basique pour les valeurs manquantes (en remplissant les valeurs numériques manquantes avec la moyenne de la colonne) et pour encoder les variables catégorielles (en utilisant pd.get_dummies)
